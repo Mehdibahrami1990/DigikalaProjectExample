@@ -567,3 +567,189 @@ nav .nav_left ul li a span {
   border-radius: 14px;
   font-size: 11px;
 }
+.offer_market_left > div {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #39ae00;
+  padding: 10px 20px;
+  border-radius: 35px;
+  font-size: 18px;
+}
+.offer_market_left > div span {
+  margin: 0 5px;
+  font-size: 15px;
+}
+.banner {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.banner a {
+  width: 350x;
+  height: auto;
+  margin: 5px;
+  border-radius: 15px;
+}
+.banner a img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.cat {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+  margin: 35px auto;
+}
+.cat .cat_product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+.cat .cat_product > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+.cat .cat_product > a > h5 {
+  margin: 10px 0;
+  color: #4c4c4c;
+}
+.banner_2 {
+  width: 100%;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.banner_2 a {
+  width: 680px;
+  height: auto;
+  margin: 7px;
+}
+.banner_2 a img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.disText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+  font-size: 20px;
+}
+.discount {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.discount ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.discount ul li {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 40px 0 0; */
+  margin-right: 50px;
+  border-right: 1px solid #bbb;
+}
+.discount ul li:first-child{
+  border-right: 0;
+  margin-right: 0;
+}
+.discount ul li div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.discount ul li div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 45px;
+  border-bottom: 1px solid #bbb;
+}
+.discount ul li div a:last-child {
+  border-bottom: 0;
+}
+.discount ul li div a h6 {
+  margin-top : 15px;
+  color: #424242;
+}
+.discount .offer_arrow{
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  top:50%;
+  transform: translateY(-50%);
+}
+.barnds{
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.barnds .header_brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.barnds .header_brands>span {
+   margin: 0 10px;
+   color:#ff6d00;
+   font-size: 20px;
+}
+.barnds  .footer_brands{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 30px 0;
+}
